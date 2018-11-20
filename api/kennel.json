@@ -1,0 +1,26 @@
+{
+  "employees": [
+    { "id": 1, "name": "Jessica Younker" },
+    { "id": 2, "name": "Jordan Nelson" },
+  { "id": 3, "name": "Zoe LeBlanc" },
+  { "id": 4, "name": "Blaise Roberts" }
+],
+
+"locations": [
+  { "id": 1, "name": "Nashville North", "address": "500 Circle Way"},
+  { "id": 2, "name": "Nashville South", "address": "10101 Binary Court"}
+],
+
+"animals": [
+  { "id": 1, "name": "Chester", "type": "Dog"},
+  { "id": 2, "name": "Todd", "type": "Cat"},
+  { "id": 3, "name": "Trudy", "type": "Dog"},
+  { "id": 4, "name": "Lona", "type": "Cat"}
+],
+
+"owners": [
+  { "id": 1, "name": "Wendy & Peter Wessel", "number": "(989)464-0969"},
+  { "id": 2, "name": "Nick Wessel", "number": "(989)464-5890"},
+  { "id": 3, "name": "Taylor Wessel & Luke Wilson", "number": "(989)464-1371"}
+]
+}
