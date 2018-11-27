@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class LocationList extends Component {
+export default class LocationList extends Component {
   render() {
     return (
       <section className="locations">
@@ -8,11 +8,10 @@ class LocationList extends Component {
         {
           this.props.locations.map(location =>
             <div key={location.id}>
-            <p>{location.name}: {location.address}</p>
+            <li>{location.name}: {location.address}</li>
             </div>
           )}
       </section>
     )
   }
 }
-export default LocationList
